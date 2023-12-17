@@ -1,0 +1,51 @@
+/* navbar styling part starts */
+
+.navbar-custom-css{
+    background-color: #292929;
+}
+
+.NavbarTextColourCss{
+    color: white;
+}
+
+.navbar-brand-name{
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.hub-styling{
+    background-color: #ffa31a;
+    border-radius: 8%;
+    margin-left: 3%;
+    padding: 1.5%;
+}
+
+
+
+.displayCenterOnBigScreens{
+    @media (min-width :768px){
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+
+
+
+.navbarTextColor{
+    color: #323232;
+}
+
+/* navbar styling part ends */
+
+
+
+
+/* MainComponent Styling starts */
+
+.mainBgColor{
+    background-color: #1b1b1b;
+}
+
+/* MainComponent Styling ends */
