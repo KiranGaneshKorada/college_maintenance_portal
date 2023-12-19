@@ -1,6 +1,6 @@
 import { QueryClient, QueryClientProvider } from "react-query";
-import MainComp from "./components/mainBodyComp/MainBarComp";
-import Navbar from "./components/navbarComponent/Navbar";
+import MainComp from "./components/HomePageComponents/HomePage";
+import Navbar from "./components/Navbar/Navbar";
 
 const queryClient = new QueryClient();
 

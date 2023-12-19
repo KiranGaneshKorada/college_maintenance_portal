@@ -3,19 +3,10 @@ import { CategoryScale } from "chart.js";
 import { Bar } from "react-chartjs-2";
 import useHomePageData from "../useHomePageData";
 
-
-
 Chart.register(CategoryScale);
 
 const GraphComp = () => {
-
-
-
-  const {data,error,isLoading}=useHomePageData()
-
- 
-
-  
+  const { data, error, isLoading } = useHomePageData();
 
   return (
     <>

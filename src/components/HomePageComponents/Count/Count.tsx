@@ -1,10 +1,7 @@
 import useHomePageData from "../useHomePageData";
 
-
 const ComplaintsCountComp = () => {
-
-    const { data, error, isLoading } = useHomePageData();
-
+  const { data, error, isLoading } = useHomePageData();
 
   return (
     <div className="container-fluid d-flex flex-row m-0 p-5">
